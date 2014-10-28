@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "express-session": "^1.9.1",
+    "express": "^4.10.0",
+    "jade": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silentlagoon/nodejs_boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silentlagoon/nodejs_boilerplate/issues"
+  },
+  "homepage": "https://github.com/silentlagoon/nodejs_boilerplate"
+}

@@ -1,0 +1,10 @@
+extend ../views/layouts/layout
+
+block content
+	div(class="container")
+		p(class="text text-1") Signup
+			form(action="/login", method="post")
+				input(class="form-field full email" type="text", placeholder="myemail@internet.com")
+				input(class="form-field full password" type="password", placeholder="password")
+				input(class="form-field full password" type="password", placeholder="confirm")
+				input(class="submit" type="submit", value="Create")

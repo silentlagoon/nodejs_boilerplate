@@ -1,0 +1,9 @@
+extend ../views/layouts/layout
+
+block content
+    div(class="container")
+        p(class="text text-1") Login
+            form(action="/login", method="post", role="form")
+                input(class="form-field half name-first form-field-1" type="email", placeholder="eMail", name="email")
+                input(class="form-field half name-first form-field-2" type="password", placeholder="Password", name="password")
+                input(class="submit" type="submit", value="Login")
